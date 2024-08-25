@@ -11,10 +11,7 @@ const A = (props) => {
         color:'red',
         fontSize:'28px'
     }
-    const font3={
-        color:'purple',
-        fontSize:'28px'
-    }
+    
   return (
     <>
 <h1 style={font2}>This is the example of Props with declare a props in html tags with like this <br/>(props.name, props.age, props.city)
@@ -34,8 +31,7 @@ these types of props</h1>
          phone={9041316690}/>
     </div>
 
-    <h1 style={font3}>This is the example of Props with declare a props in html tags without declare a props <br/>(props.name, props.age, props.city)
-         these types of props</h1>
+    
     </>
   )
 }

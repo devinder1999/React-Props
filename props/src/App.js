@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import A from './Component/A';
+import Parameterprops from './Component/Parameterprops';
 
 function App() {
   return (
@@ -14,6 +15,14 @@ function App() {
 
     <div className='Example2'>
 
+<Parameterprops
+
+name="Davinder Ankush"
+age={23}
+city="Ferozepur Cantt"
+phone={9781254681}
+
+/>
 
 
     </div>
