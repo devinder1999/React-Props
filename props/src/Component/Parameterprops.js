@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+//({name,age,city,phone}) -->This is a Parameter Defined like an array for use Props
 const Parameterprops = ({name,age,city,phone}) => {
 
     const font3={
